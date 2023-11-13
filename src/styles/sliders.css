@@ -1,0 +1,128 @@
+.başlık{
+    color: white;
+    margin-left: 25px;
+    margin-bottom: -80px;
+    margin-top: 50px;
+}
+  .cardslide {
+    margin-top: 100px;
+    transition: transform 0.3s ease-in-out;
+    
+    
+  }
+
+  .cardslide:hover {
+    transform: scale(1.3); /* Kartı 1.1 kat büyüt */
+  }
+
+ 
+  
+  .cardslide-image{
+    width: 248px;
+    height: 150px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  
+  .slick-next {
+    right: 10px;
+    margin-top: 40px
+  }
+
+  .cardslide-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .cardslide-info {
+   display: block;
+    width: 248px;
+    height: 132px;
+    
+  }
+  
+  
+  .cardslide-info-container {
+    max-width: 250px;
+    margin: 0 auto;
+    background-color: #181818;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
+    max-height: 110%;
+  }
+  
+  .cardslide-info-title {
+    color: white;
+    font-size: 15px;
+    margin-bottom: -15px;
+    margin-top: -4px;
+  }
+  
+  .cardslide-info-description {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .cardslide:hover .cardslide-info {
+    display: block;
+  }
+  
+  .cardslide:not(:hover) .cardslide-info {
+    display: none;
+  }
+  
+  .infoicon{
+    color: white;
+    font-size: 1.8vw;
+  }
+  
+   .tmy{
+    margin-top: -255px;
+    height: 200px;
+  }
+
+  .tmy2{
+    margin-top: 50px;
+    height: 200px;
+  } 
+  
+  .MATCH{
+    color: #43CA65;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .HD{
+     margin-left: 10px;
+     color: white;
+     border: solid 1px;
+     border-radius: 5px;
+     
+  }
+
+  .top1{
+    display: flex;
+  }
+
+  .cardslide-detail{
+    color: white;
+    margin-top: -17px;
+  }
+
+  .downbutton{
+    margin-left: 130px;
+  }
+
+  .tmy3{
+    height: 100px;
+  }
+
+  .tmy4{
+    height: 200px;
+  }

@@ -1,0 +1,165 @@
+/* styles/hero.css */
+
+.landing-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+    font-family: Poppins;
+    font-weight: 400;
+    width: calc(83.3333% - 96px);
+    gap: 25px;
+    z-index: 100;
+}
+
+.landing-navbar .logo {
+    width: 148px;
+    height: 40px;
+    margin-left: -500px;
+    padding: 800px;
+}
+
+.landing-navbar .button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    white-space: nowrap;
+    background: #e50914; 
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    min-width: 77px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px;
+    transition-duration: 300ms;
+}
+
+.landing-navbar .button:hover {
+    background: #c1111a; 
+    transition-duration: 300ms;
+}
+
+
+.hero {
+    
+    overflow: hidden;
+    height: 650px; /* veya istediğiniz yüksekliği belirleyebilirsiniz */
+    margin-top: -20px; /* İstenilen negatif değeri kullanarak köşelerden biraz soldurabilirsiniz */
+  }
+  
+  
+  .hero-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero .hero-box .hero-title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align:center;
+}
+
+.hero .hero-box .hero-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align:center;
+    margin-bottom: 2rem;
+}
+.hero-text-title{
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+  
+  
+  .image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+    z-index: -1;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+  }
+  
+  .shadow {
+    /* İstenirse gölge ekleyebilirsiniz */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 40%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  }
+  .giris{
+    display: flex;
+    position: relative;
+  }
+   label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    pointer-events: none; /* Label'ı tıklanabilir yapma */
+    transition: all 0.3s ease; /* Animasyon süresi ve geçiş türünü belirle */
+}
+  .input{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 386px;
+    height: 35px;
+    background: rgba(22, 22, 22, 0.7);
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    border-radius: 0.25rem;
+    color: inherit;padding-left: 40px;
+    margin-left: 90px;
+    transition: all 0.3s ease;
+   
+  }
+  input:focus + label, input:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 12px; /* İstediğiniz boyutu ayarlayın */
+}
+
+  
+ 
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    background: #e50914; 
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-width: 191px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px;
+    transition-duration: 300ms;
+    margin-left: 10px;
+  }
+
+  .arageçis{
+    position: absolute;
+    display: flex;
+    top:0;
+    
+    height: 0.5rem;
+    background: rgb(35,35,35);
+  }
